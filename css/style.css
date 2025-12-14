@@ -7,11 +7,10 @@
     color: #fff;
     margin: 0;
     padding: 0;
-    font-family: 'Open Sans', sans-serif;
+    padding-top: 70px;
+    font-family: 'Oswald', sans-serif;
  }
-.container {
-    padding: 80px;
-}
+
 
 /* Google Fonts */
 h1, h2, h3, h4, h5, h6 {
@@ -49,15 +48,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .carousel-inner {
-    background-color: black;
+    background-color: #000 !important;
     padding: 20px;
 }
 
 .carousel-desc {
     color: #6cff8f;
-    font-weight: 500;
+    font-weight: 600;
     font-size: large;
-    font-family: 'Macondo', serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .light-text {
@@ -74,6 +73,42 @@ h1, h2, h3, h4, h5, h6 {
 .form-label {
     font-family: 'Lato', sans-serif;
     font-weight: 500;
+}
+
+/* Contact page  */
+.contact-box h2 {
+    font-family: 'Oswald', sans-serif !important;
+    font-size: 2.5rem !important;
+    margin-bottom: 2rem !important;
+}
+
+.contact-box .form-label {
+    font-family: 'Lato', sans-serif !important;
+    font-size: 1.2rem !important;
+    font-weight: 600 !important;
+}
+
+.contact-box input,
+.contact-box textarea {
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 1.1rem !important;
+}
+
+.contact-box .btn {
+    font-family: 'Lato', sans-serif !important;
+    font-size: 1.2rem !important;
+    padding: 12px 30px !important;
+}
+
+/* Force Google */
+.contact-box * {
+    font-family: inherit !important;
+}
+
+.contact-box p,
+.contact-box span,
+.contact-box div {
+    font-family: 'Open Sans', sans-serif !important;
 }
 
 /* Hero section styling */
@@ -149,6 +184,9 @@ form textarea:focus {
     background-color: #000; 
     padding: 25px;
     border-radius: 12px;
+    margin-top: 50px; 
+    position: relative;
+    z-index: 2;
 }
 .form-control {
     background-color: #ddd !important;
@@ -157,6 +195,8 @@ form textarea:focus {
 .bg-light {
     background-color: black !important;
 }
+
+
 
 /* FOOTER */
 footer {
@@ -175,12 +215,29 @@ footer h5 {
 }
 
 footer i {
-    transition: 0.2s;
+    transition: all 0.3s ease;
+    cursor: pointer;
 }
 
 footer i:hover {
     color: #0d6efd;
     transform: scale(1.2);
+}
+
+footer i:active {
+    color: #0052cc !important;
+    transform: scale(0.95);
+}
+
+/* Social  */
+.fa-facebook:hover,
+.fa-facebook:active {
+    color: #1877f2 !important;
+}
+
+.fa-instagram:hover,
+.fa-instagram:active {
+    color: #e4405f !important;
 }
 
 

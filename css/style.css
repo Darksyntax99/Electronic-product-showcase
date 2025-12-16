@@ -1,15 +1,12 @@
-/*
- * Styles for the electronic product showcase
- */
-
- body {
+/* Electronic Product Showcase Styles */
+body {
     background-color: #111;
     color: #fff;
     margin: 0;
     padding: 0;
     padding-top: 70px;
     font-family: 'Oswald', sans-serif;
- }
+}
 
 
 /* Google Fonts */
@@ -23,7 +20,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .card-title {
-    font-family: 'Lato', sans-serif;
+    font-family: 'BBH Hegarty', sans-serif;
 }
 
 /* Navbar */
@@ -53,20 +50,20 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .carousel-desc {
-    color: #6cff8f;
-    font-weight: 600;
-    font-size: large;
-    font-family: 'Open Sans', sans-serif;
+    color: #ddd;
+    font-weight: 800;
+    font-size: x-large;
+    font-family: 'Oswald', sans-serif;
 }
 
 .light-text {
-    color: #f1f1f1;
+    color: powderblue;
 }
 
 /* Button styling */
 .btn {
-    font-family: 'Lato', sans-serif;
-    font-weight: 600;
+    font-family: 'BBH Hegarty', sans-serif;
+    font-weight: 500;
 }
 
 /* Form labels */
@@ -83,24 +80,24 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .contact-box .form-label {
-    font-family: 'Lato', sans-serif !important;
+    font-family: 'Oswald', sans-serif !important;
     font-size: 1.2rem !important;
     font-weight: 600 !important;
 }
 
 .contact-box input,
 .contact-box textarea {
-    font-family: 'Open Sans', sans-serif !important;
+    font-family: 'BBH Hegarty', sans-serif !important;
     font-size: 1.1rem !important;
 }
 
 .contact-box .btn {
-    font-family: 'Lato', sans-serif !important;
+    font-family: 'BBH Hegarty', sans-serif !important;
     font-size: 1.2rem !important;
     padding: 12px 30px !important;
 }
 
-/* Force Google */
+/* Force Google Fonts */
 .contact-box * {
     font-family: inherit !important;
 }
@@ -111,7 +108,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Open Sans', sans-serif !important;
 }
 
-/* Hero section styling */
+/* Hero section */
 .hero-section {
     padding: 2rem 0 !important;
     margin-bottom: 1rem !important;
@@ -136,17 +133,20 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 600 !important;
     width: 200px !important;
 }
+.hero-section {
+    margin-bottom: 80px !important;
+}
 
-/* product cards */
+
+/* product section and cards */
+.products-section {
+    margin-bottom: 100px !important;
+}
 
 .card {
     background-color: #222;
     border: 1px solid #333;
     transition: transform 0.3s;
-}
-
-.card:hover {
-    transform: translateY(-5px);
 }
 
 .card-img-top {
@@ -186,8 +186,8 @@ form textarea:focus {
     border-radius: 12px;
     margin-top: 50px; 
     position: relative;
-    z-index: 2;
 }
+
 .form-control {
     background-color: #ddd !important;
     color: #444 !important;
@@ -196,14 +196,13 @@ form textarea:focus {
     background-color: black !important;
 }
 
-
-
 /* FOOTER */
 footer {
     background-color: #000 !important;
     color: #ccc;
     width: 100%;
     margin-top: auto;
+    padding: 30px 0;
 }
 
 footer .container {
@@ -238,9 +237,4 @@ footer i:active {
 .fa-instagram:hover,
 .fa-instagram:active {
     color: #e4405f !important;
-}
-
-
-body, html {
-    overflow-x: hidden;
 }

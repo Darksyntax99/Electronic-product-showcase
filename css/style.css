@@ -178,7 +178,7 @@ form textarea {
 form input:focus,
 form textarea:focus {
     border-color: #0d6efd !important;
-    box-shadow: #0d6efd !important;
+    box-shadow: 0 0 5px #0d6efd !important;
 }
 .contact-box {
     background-color: #000; 

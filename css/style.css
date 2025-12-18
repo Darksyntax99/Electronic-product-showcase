@@ -32,7 +32,7 @@ h1, h2, h3,.navbar-brand {
     transition: all 0.4s;
 }
 
-.carousel img.hover {
+.carousel img:hover {
     filter: brightness(1);
 }
 

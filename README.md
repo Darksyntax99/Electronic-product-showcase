@@ -160,8 +160,7 @@ All HTML, CSS passed without any errors
 
 [test,contactHTML](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdarksyntax99.github.io%2FElectronic-product-showcase%2Fcontact.html)
 
-[Test,CSS](https://jigsaw.w3.org/css-validator/validator)
-
+[Test,CSS](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdarksyntax99.github.io%2FElectronic-product-showcase%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 # Built by
 - HTML5

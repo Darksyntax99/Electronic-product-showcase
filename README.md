@@ -154,11 +154,11 @@ Fix: Used !important to override Bootstrap input styling and enforce the custom 
 ## HTML Validators
 All HTML, CSS passed without any errors
 
-[Test,indexHTML](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdarksyntax99.github.io%2FElectronic-product-showcase%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+[Test,indexHTML](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdarksyntax99.github.io%2FElectronic-product-showcase%2Findex.html)
 
-[Test,productHTML](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdarksyntax99.github.io%2FElectronic-product-showcase%2Fproduct.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+[Test,productHTML](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdarksyntax99.github.io%2FElectronic-product-showcase%2Fproduct.html)
 
-[test,contactHTML](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdarksyntax99.github.io%2FElectronic-product-showcase%2Fcontact.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+[test,contactHTML](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdarksyntax99.github.io%2FElectronic-product-showcase%2Fcontact.html)
 
 [Test,CSS](https://jigsaw.w3.org/css-validator/validator)
 

@@ -105,6 +105,63 @@ and all the description you can check it in the images
 ## About the Lighthouse Performance Note 
 The performance score is affected by the use of high-resolution images and probably external libraries such as bootstrap and font awesome. Maybe the images optimization and lazy loading could improve performance in iterations.
 
+## Bugs/Errors and Fixes
+1. Bug 1- Navbar overlapping 
+
+Issue: The fixed navbar was overlapping the top page content.
+
+Cause: Bootstrap fixed navbar removes the element from normal document flow.
+
+Fix: Added spacing using padding-top /  on the body.
+
+2. Bug 2 — Missing alt attribute on images
+
+Issue: HTML validator returned error for missing alt attributes.
+Cause: Some product images were missing alt text.
+Fix: Added descriptive alt attributes to all img elements.
+
+3. bug 3- Heading structure error 
+
+Issue: Validator warning about skipping heading levels (h2 → h5).
+
+Cuase: Product titles used h5 without intermediate heading structure.
+
+Fix: Adjusted heading hierarchy to follow logical order or ensured correct section structure.
+
+4. Bug 4 — Stray closing div
+Issue: Validator error: stray end tag div.
+
+Cause: Extra closing div after hero section.
+
+Fix: Removed the unnecessary closing div.
+
+5. Bug 5 — Hero section spacing not applied
+
+Issue: Hero section padding and margins were not showing as designed.
+
+Cause: Bootstrap utility classes were overriding the hero section spacing.
+
+Fix: Added !important to padding and margin properties to ensure the hero section layout appears correctly.
+
+6. Bug 6 — Form input styling not working
+
+Issue: Custom background color and text color for form inputs were not applied.
+
+Cause: Bootstrap .form-control default styles were overriding custom styles.
+
+Fix: Used !important to override Bootstrap input styling and enforce the custom theme colors.
+
+## HTML Validators
+All HTML, CSS passed without any errors
+[Test,indexHTML](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdarksyntax99.github.io%2FElectronic-product-showcase%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+[Test,productHTML](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdarksyntax99.github.io%2FElectronic-product-showcase%2Fproduct.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+[test,contactHTML](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdarksyntax99.github.io%2FElectronic-product-showcase%2Fcontact.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+[Test,CSS](https://jigsaw.w3.org/css-validator/validator)
+
+
 # Built by
 - HTML5
 - CSS3
@@ -164,52 +221,6 @@ features so that i can understand what the product offers.
 - The Contact page is working.
 - It has a simple form: Name-Email-Message.
 - I can send a message 
-
-## Bugs/Errors and Fixes
-1. Bug 1- Navbar overlapping 
-
-Issue: The fixed navbar was overlapping the top page content.
-
-Cause: Bootstrap fixed navbar removes the element from normal document flow.
-
-Fix: Added spacing using padding-top /  on the body.
-
-2. Bug 2 — Missing alt attribute on images
-
-Issue: HTML validator returned error for missing alt attributes.
-Cause: Some product images were missing alt text.
-Fix: Added descriptive alt attributes to all img elements.
-
-3. bug 3- Heading structure error 
-
-Issue: Validator warning about skipping heading levels (h2 → h5).
-
-Cuase: Product titles used h5 without intermediate heading structure.
-
-Fix: Adjusted heading hierarchy to follow logical order or ensured correct section structure.
-
-4. Bug 4 — Stray closing div
-Issue: Validator error: stray end tag div.
-
-Cause: Extra closing div after hero section.
-
-Fix: Removed the unnecessary closing div.
-
-5. Bug 5 — Hero section spacing not applied
-
-Issue: Hero section padding and margins were not showing as designed.
-
-Cause: Bootstrap utility classes were overriding the hero section spacing.
-
-Fix: Added !important to padding and margin properties to ensure the hero section layout appears correctly.
-
-6. Bug 6 — Form input styling not working
-
-Issue: Custom background color and text color for form inputs were not applied.
-
-Cause: Bootstrap .form-control default styles were overriding custom styles.
-
-Fix: Used !important to override Bootstrap input styling and enforce the custom theme colors.
 
 ## Wireframes 
 Wireframes were created during the planning stage to define the basic structure and layout of the website across different screen sizes. Each page was designed with a mobile-first approach and adapted for desktop and tablet screens.

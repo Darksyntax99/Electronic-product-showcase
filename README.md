@@ -8,10 +8,10 @@ The website is fully responsive, designed to provide an optimal experience on de
 I built the project as part of a milestone assessment to demonstrate skills in HTML, CSS and using Bootstrap as optional library, i focused on clean UI, responsiveness, and user experience. 
 
 ## Features Section
-- Navigations bar
+- Navigation bar
 ![Home Navigation](images/9DEC4A91-B591-4495-BFDD-775D3DFB0BA4.png)
 
-1. Featured on all pages, the full responsive navigation bar includes links to Home, Products, and Contact pages.
+1. Featured on all pages, the fully responsive navigation bar includes links to Home, Products, and Contact pages.
 2. This allows users to easily navigate the site across all devices without confusion.
 
 - Home Page and Carousel
@@ -68,9 +68,10 @@ Using VSCode Live Server
 
 3. Run the project open the project folder and open index.html it can open by Double clicking the file or using Live Server in VScode 
 
-4. Live Server (i used it) if we are using VScode install Live Server Extension and the right click on index.html then we just click Open with Live Server and its will open in the browser 
+4. Live Server (i used it)
+ if we are using VScode install Live Server Extension and the right click on index.html then we just click Open with Live Server and it will open in the browser 
 
-- what you need internet browser 
+- what you need: An internet browser 
 (Chrome, Firefox, Edge, Safari) VS code (optional) - Live Website [live,web,electronic]https://darksyntax99.github.io/Electronic-product-showcase/ 
 
 5. serve with Python(i used it) - open terminal write/run python3 -m http.server 8000 then we get this link to open at browser http://localhost:8000/
@@ -118,7 +119,7 @@ Issue: HTML validator returned error for missing alt attributes.
 Cause: Some product images were missing alt text.
 Fix: Added descriptive alt attributes to all img elements.
 
-3. bug 3- Heading structure error 
+3. Bug 3- Heading structure error 
 
 Issue: Validator warning about skipping heading levels (h2 → h5).
 
@@ -177,13 +178,13 @@ Some warnings appeared because Bootstrap uses browser-specific properties and ce
 # Development cycle 
 
 1. Planning Phase 
-I started by defining the project goal, wich was to build responsive electronic product showcase website. I identified the target users and created user stories to guide the development.
+I started by defining the project goal, which was to build responsive electronic product showcase website. I identified the target users and created user stories to guide the development.
 
 2. Design Phase 
-I created wir3eframes for Home, Products, and Contact pages using Balsamiq 
+I created wireframes for Home, Products, and Contact pages using Balsamiq 
 
 3. Development Phase 
-I built the website using HTML and CSS, and used Bootstrap to help with responsiveness and layout structure. I write the code using VScode. I used also Googlefont and Fontawesome for the styling and the icons. I focused on UI and consistent styling.
+I built the website using HTML and CSS, and used Bootstrap to help with responsiveness and layout structure. I wrote the code using VScode. I used also Google Fonts and Font Awesome for the styling and the icons. I focused on UI and consistent styling.
 
 4. Testing Phase 
 I tested the website manually on different screen sizes and browsers. I also used HTML and CSS validators and Lighthouse to check performance,
@@ -229,10 +230,10 @@ features so that i can understand what the product offers.
 - There is no horizontal scrolling
 
 
-## User Story 4: devise compatibility 
+## User Story 4: Device compatibility 
 - As a user i want the website to be responsive that I can view it comfortably on mobile, tablet, and desktop.
 # Acceptance Criteria
-- Having a table or detailed list of specification.
+- Having a table or detailed list of specifications.
 - The information is organized, such as: weight battery and connection.
 - The format is easy to read.
 
@@ -296,7 +297,7 @@ Wireframes were created during the planning stage to define the basic structure 
 
 - Content & Design Inspiration
 
-1. Primary Ahestetic
+1. Primary Aesthetic
 
 The goal of the Electronic Market project was to design a responsive and simple website that focused on user experience and ease of navigation.
 The design was inspired by modern e-commerce website, with an emphasis on clear information and easy access to products.
@@ -320,13 +321,13 @@ The icons used in the footer and website interface are from Font Awesome.
 
 6. About AI (copilot)
 I used AI during the development of this 
-project strictly as a learning tools.
+project strictly as a learning tool.
 - Understanding responsiveness issues and layout behavior.
 - improve understanding of lighthouse.
 All code in this project was written, adapted, and fully understood by me.
 No AI-generated code was copied directly into the project.
 AI was only consulted in specific situations to help identify issues (for example understanding when and why !important might be necessary) after which I implemented the solutions myself
-I remain fully responsible for the project’s structure code decisions and final implementation.
+I remain fully responsible for the project’s structure, code decisions and final implementation.
 
 7. Responsive/ Fonts 
 Bootstrap framework used for responsive layout 

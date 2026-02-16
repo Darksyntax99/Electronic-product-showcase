@@ -7,85 +7,83 @@ Electronic Market is targeted at users who want to explore, compare, and purchas
 The website is fully responsive, designed to provide an optimal experience on desktop, tablet, and mobile devices.
 I built the project as part of a milestone assessment to demonstrate skills in HTML, CSS and using Bootstrap as optional library, i focused on clean UI, responsiveness, and user experience. 
 
-## Home Page 
-- desktop
-![Home,Desktop](images/Screenshot%202026-02-13%20at%2011.53.03.png)
-![Home](images/Screenshot%202026-02-13%20at%2011.53.12.png)
-- Tablet
-![Home,Tablet](images/Screenshot%202026-02-13%20at%2012.30.21.png)
-- Mobile
-!|[Home,mobile](images/Screenshot%202026-02-13%20at%2012.33.02.png)
-![Home,mobile](images/Screenshot%202026-02-13%20at%2012.34.29.png)
-* The Home Page introduces users to Electronic Market with a clear hero section and featured product carousel. 
-It provides an overview of the core purpose of the site, allowing users to navigate easily and see highlighted products.
-
-## Products Page
-- Desktop 
-![Product,desktop](images/Screenshot%202026-02-13%20at%2011.53.59.png)
-![Product,desktop](images/Screenshot%202026-02-13%20at%2011.53.52.png)
-
-- Tablet 
-![Products,Tablet](images/Screenshot%202026-02-13%20at%2012.31.07.png)
-
-- Mobile 
-![Product,mobile](images/Screenshot%202026-02-13%20at%2012.35.00.png)
-![Product,mobile](images/Screenshot%202026-02-13%20at%2012.35.46.png)
-Each product card highlights the main features and price clearly, making it easy for users to make purchasing decisions.
-
-### Contact Page
-- Desktop 
-![Contact,Desktop](images/Screenshot%202026-02-13%20at%2013.08.44.png)
-![Contact,Desktop](images/Screenshot%202026-02-13%20at%2013.08.58.png)
-
-- Tablet 
-![Contact,Tablet](images/Screenshot%202026-02-13%20at%2012.31.58.png)
-
-- Mobile 
-![Contact,Mobile](images/Screenshot%202026-02-13%20at%2013.13.37.png)
-
-The form is fully functional and responsive. Social media icons open links in new tabs, ensuring easy navigation for users.
-
 ## Features Section
 - Navigations bar
+![Home Navigation](images/9DEC4A91-B591-4495-BFDD-775D3DFB0BA4.png)
+
 1. Featured on all pages, the full responsive navigation bar includes links to Home, Products, and Contact pages.
 2. This allows users to easily navigate the site across all devices without confusion.
 
 - Home Page and Carousel
+![Home Page Carousel](images/Screenshot%202026-02-13%20at%2011.53.03.png)
+![Home Page Carousel View](images/DD2A48EA-6C9C-4983-B04C-D5BD007A64C1_1_201_a.jpeg)
+
+
 1. The homepage includes a hero section and product carousel to showcase featured electronics.
 2. Provides a clear introduction and easy access to product highlights.
 
 - product Page 
+
+![Product Page](images/Screenshot%202026-02-13%20at%2011.53.59.png)
+![Product Lists](images/A1CA7FF2-72F1-45B5-9DDF-041727310224_1_201_a.jpeg)
+
 1. Lists products with images and prices.
 
 - Contact Page 
+![Contact Page View 1](images/Screenshot%202026-02-13%20at%2011.54.06.png)
+![Contact Page View 2](images/Screenshot%202026-02-13%20at%2011.54.10.png)
+![Contact Page View 3](images/Screenshot%202026-02-13%20at%2011.54.15.png)
+
 1. Includes a simple form: Name, Email, Message and Social media links.
 
 - Social Media Footer
+
+![Social Media Footer 1](images/853B510E-2CD2-49FC-99D1-C2C9DB4C2720_1_201_a.jpeg)
+![Social Media Footer 2](images/CA58BA6F-69A8-4D7F-A5C8-16EB1CA260E6_1_201_a.jpeg)
 1. Footer includes links to social media platforms.
 2. Encourages users to connect with the market online and follow updates.
-and all the description you can check it in the images 
+
 
 # Deployment 
  This section describes the process followed to deploy the project to a hosting platform(GitHUb Pages)
  The site was deployed to GitHub Pages. The steps to deploy are as follows:
+
  1. Navigate to your GitHub repository: Electronic-product-showcase 
+
  2. Click on the Setting tab.
+
  3. Scroll down to the Pages section.
+
  4. Under "Source", select the main branch.
+
  5. Click Save. the page will refresh automatically, and a ribbon will appear to indicate the deployment was successful.
  the live site can be accessed here.
 [Electronic Market](https://darksyntax99.github.io/Electronic-product-showcase/)
+Using VSCode Live Server
 
+# Deployment and Run locally 
+1. Clone the project open terminal and type git clone https://github.com/darksyntax99/Electronic-product-showcase.git 
+
+2. Open the project folder cd Electronic-product-showcase 
+
+3. Run the project open the project folder and open index.html it can open by Double clicking the file or using Live Server in VScode 
+
+4. Live Server (i used it) if we are using VScode install Live Server Extension and the right click on index.html then we just click Open with Live Server and its will open in the browser 
+
+- what you need internet browser 
+(Chrome, Firefox, Edge, Safari) VS code (optional) - Live Website [live,web,electronic]https://darksyntax99.github.io/Electronic-product-showcase/ 
+
+5. serve with Python(i used it) - open terminal write/run python3 -m http.server 8000 then we get this link to open at browser http://localhost:8000/
 
 # Manual Testing 
 
-| Feature            | Test                                      | Expected Result             | Actual Result                    |
-| ------------------ | ----------------------------------------- | --------------------------- | -------------------------------- |
-| Navbar             | Click Home, Products, Contact links       | Navigate to correct page    | Works as expected                |
-| Carousel           | Click next/prev buttons                   | Images slide correctly      | Works as expected                |
-| Contact Form       | Enter Name, Email, Message and submit     | Form submits without errors | Works as expected (page reloads) |
-| Social Media Icons | Click Facebook/Instagram                  | Open link in new tab        | Works as expected                |
-| Responsive Layout  | Resize screen (Desktop / Tablet / Mobile) | Layout adjusts correctly    | Works as expected                |
+| Feature            | Expected Outcome                       | Action                                                                                                   | Result                           |
+| ------------------ | -------------------------------------- | -------------------------------------------------------------------------------------------------------- | -------------------------------- |
+| Navbar             | Page navigates correctly               | 1. Click **Home** link <br> 2. Click **Products** link <br> 3. Click **Contact** link                    | Works as expected /pass               |
+| Carousel           | Images slide correctly                 | 1. Click **Next** button on product carousel <br> 2. Click **Previous** button                           | Works as expected /pass               |
+| Contact Form       | Form submits without errors            | 1. Enter **Name** <br> 2. Enter **Email** <br> 3. Enter **Message** <br> 4. Click **Submit**             | Works as expected /pass (page reloads) |
+| Social Media Icons | Link opens in a new tab                | 1. Click **Facebook** icon <br> 2. Click **Instagram** icon                                              | Works as expected /pass               |
+| Responsive Layout  | Layout adapts correctly to screen size | 1. Resize browser to **Desktop**, **Tablet**, **Mobile** <br> 2. Check that all elements adjust properly | Works as expected/pass               |
 
 # Browser & Device Testing
 
@@ -156,25 +154,55 @@ All HTML, CSS passed without any errors
 
 [Test,indexHTML](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdarksyntax99.github.io%2FElectronic-product-showcase%2Findex.html)
 
+![indexHTML](images/A7DFA18A-DCAA-42E6-AB99-D3F1B47BFA5C_1_201_a.jpeg)
+
+
 [Test,productHTML](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdarksyntax99.github.io%2FElectronic-product-showcase%2Fproduct.html)
 
-[test,contactHTML](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdarksyntax99.github.io%2FElectronic-product-showcase%2Fcontact.html)
+![productHTML](images/A3C6304B-E22F-4A07-9BAB-A74F919004AD_1_201_a.jpeg)
+
+
+[test,contactHTML](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdarksyntax99.github.io%2FElectronic-product-showcase%2Fcontact.html) 
+
+![ContactHTML](images/7CD6FBDD-EED9-4ACA-B167-C17411DA854B_1_201_a.jpeg)
 
 [Test,CSS](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdarksyntax99.github.io%2FElectronic-product-showcase%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+![CSS](images/1959D864-9327-4E37-AC11-65A785526CE2_1_201_a.jpeg)
+
  - Note 
  .CSS Warnings
 Some warnings appeared because Bootstrap uses browser-specific properties and certain dynamic variables. These warnings are normal and do not affect the website's functionality. 
 
-# Built by
-- HTML5
-- CSS3
-## Library
-- Bootstrap v5.3.8
-## Fonts
-- Google Fonts 
-## Icons 
-- Fonts Awesome
+# Development cycle 
 
+1. Planning Phase 
+I started by defining the project goal, wich was to build responsive electronic product showcase website. I identified the target users and created user stories to guide the development.
+
+2. Design Phase 
+I created wir3eframes for Home, Products, and Contact pages using Balsamiq 
+
+3. Development Phase 
+I built the website using HTML and CSS, and used Bootstrap to help with responsiveness and layout structure. I write the code using VScode. I used also Googlefont and Fontawesome for the styling and the icons. I focused on UI and consistent styling.
+
+4. Testing Phase 
+I tested the website manually on different screen sizes and browsers. I also used HTML and CSS validators and Lighthouse to check performance,
+accessibility, and best practices.
+
+5. Debugging & Improvements
+I fixed issues such as heading structure errors, missing alt attributes, navbar overlap, and Bootstrap style conflicts using custom CSS and !important when needed.
+
+# Technologies Used
+
+1. Editor: VSCode
+
+2. Languages: HTML5, CSS3
+
+3. Library: Bootstrap v5.3.8
+
+4. Fonts: Google Fonts
+
+5. Icons: Font Awesome
 
 # User Experience (UX)
 ## User Story 1: View electronic products 
@@ -264,7 +292,33 @@ Wireframes were created during the planning stage to define the basic structure 
 
 ![Overall Site Structure](wireframes/AFE26C30-EF17-4380-9140-38F59108F80D_4_5005_c.jpeg)
 
-## ABOUT THE AI (github copilot)
+## Credits 
+
+- Content & Design Inspiration
+
+1. Primary Ahestetic
+
+The goal of the Electronic Market project was to design a responsive and simple website that focused on user experience and ease of navigation.
+The design was inspired by modern e-commerce website, with an emphasis on clear information and easy access to products.
+
+2. Minimalist Interface
+
+ I followed the principle of "less is more" to create a clean and user-friendly interface. The simple design with clearly defined elements is inspired by e-commerce sites like Amazon and Newegg in how they display products and categories clearly.
+
+
+
+3. README Structure: README is organized based on the Code Institute README Template
+to ensure proper ordering.
+
+4. Media
+All product images and background images were sourced from Google images.
+
+The icons used in the footer and website interface are from Font Awesome.
+
+5. Design Tools
+ I used Balsamiq to create the initial wireframes and design the overall structure for each page.
+
+6. About AI (copilot)
 I used AI during the development of this 
 project strictly as a learning tools.
 - Understanding responsiveness issues and layout behavior.
@@ -274,3 +328,7 @@ No AI-generated code was copied directly into the project.
 AI was only consulted in specific situations to help identify issues (for example understanding when and why !important might be necessary) after which I implemented the solutions myself
 I remain fully responsible for the project’s structure code decisions and final implementation.
 
+7. Responsive/ Fonts 
+Bootstrap framework used for responsive layout 
+Google Fonts
+ Typography used on all pages.
